@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 // import React from "react";
 
 // const FlipCard = ({ image, isFlipped, isMatched, onClick }) => {
