@@ -47,7 +47,7 @@ const FlipCard = ({ image, isFlipped, isMatched, onClick }) => {
       onClick={onClick}
     >
       <div
-        className={`flip-card-inner w-full h-full relative transition-transform duration-700 transform-style-3d
+        className={`flip-card-inner w-full h-full relative transition-transform duration-900 transform-style-3d
           ${isFlipped ? "rotate-y-180" : ""}`}
       >
         <div
