@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 // import React from "react";
 
 // const FlipCard = ({ image, isFlipped, isMatched, onClick }) => {
@@ -62,7 +63,7 @@ const FlipCard = ({ image, isFlipped, isMatched, onClick }) => {
         </div>
         <div
           className={`flip-card-back absolute w-full h-full backface-hidden transform ${
-            isFlipped ? "rotate-y-0" : "rotate-y-180 hidden"
+            isFlipped ? "rotate-y-180" : "rotate-y-0 hidden"
           }`}
         >
           <img
